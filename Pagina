@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Titulo de nuestra primera web</title>
+    </head>
+    <body>
+        <!--h1 se utiliza para titulares-->
+        <h1>Titulo de nuestro documento</h1>
+        <br />
+        <h2>Titulo de nuestro documento</h2>
+    </body>
+</html>
