@@ -26,10 +26,6 @@ h2{
     height: 15%;
 }
 
-.icon{
-    text-align: center;
-}
-
 #a1{
     text-decoration: none;
     margin-top: 5%;
@@ -41,4 +37,30 @@ h2{
     text-decoration: none;
     padding: 2%;
     color: rgb(255, 255, 255);
+}
+
+#button{
+    animation-duration: 2s;
+    animation-name: animationButton;
+}
+
+.div2 a{
+    animation-duration: 5s;
+    animation-name: animationText;
+}
+
+@keyframes animationButton {
+    from{
+        margin-left: 100%;
+    }
+
+    to{
+        margin-left: 0%;
+    }
+}
+
+@keyframes animationText {
+    0%{
+        color: #ffffff00;
+    }
 }
