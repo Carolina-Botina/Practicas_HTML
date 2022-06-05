@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #EEC0F9;
+    align-items: center;
+    padding: 5px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.icon img{
+    height: 50px;
+    margin-right: 5px;
+}
